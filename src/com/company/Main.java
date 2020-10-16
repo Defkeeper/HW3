@@ -52,21 +52,24 @@ public class Main {
         }
 
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        for (int i = array.length; i >= 0; i--) {
+        for (int i = array.length - 1; i >= 0; i--) {
         System.out.print(array[i] + " ");
         }
-        int[][] squareArray = new int[2][1];
-        squareArray [0][0] = 11;
-        squareArray [0][1] = 12;
-        squareArray [1][0] = 13;
-        squareArray [1][1] = 14;
-        squareArray [2][0] = 15;
-        squareArray [2][1] = 16;
+        System.out.println();
+        int[][] squareArray = new int[2][3];
+        squareArray[0][0] = 10;
+        squareArray[0][1] = 11;
+        squareArray[0][2] = 12;
+        squareArray[1][0] = 13;
+        squareArray[1][1] = 14;
+        squareArray[1][2] = 15;
         for(int q = 0; q < squareArray.length; q++){
             for(int j = 0; j < squareArray[q].length; j++){
-                System.out.println(squareArray[q][j] + " ");
+                System.out.print(squareArray[q][j] + " ");
             }
-            System.out.println();
+System.out.println();
+        }
+
         }
     }
-}
+
