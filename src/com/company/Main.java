@@ -65,7 +65,7 @@ public class Main {
         squareArray[1][2] = 15;
         for(int q = 0; q < squareArray.length; q++){
             for(int j = 0; j < squareArray[q].length; j++){
-                System.out.print(squareArray[q][j] + " ");
+                System.out.print(squareArray[q][j] + "["+ q +"][" + j +"]" + " ");
             }
 System.out.println();
         }
