@@ -4,11 +4,33 @@ public class Main {
 
     public static void main(String[] args) {
         int month = 5;
-        if (month == 5) {
+        if (month == 1) {
+            System.out.println("Зима");
+        } else if (month == 2) {
+            System.out.println("Зима");
+        }else if (month == 3) {
             System.out.println("Весна");
-        } else {
-            System.out.println("Другое время года");
+        }else if (month == 4) {
+            System.out.println("Весна");
+        }else if (month == 5) {
+            System.out.println("Весна");
+        }else if (month == 6) {
+            System.out.println("Лето");
+        }else if (month == 7) {
+            System.out.println("Лето");
+        }else if (month == 8) {
+            System.out.println("Лето");
+        }else if (month == 9) {
+            System.out.println("Осень");
+        }else if (month == 10) {
+            System.out.println("Осень");
+        }else if (month == 11) {
+            System.out.println("Осень");
+        }else{
+            System.out.println("Зима");
         }
+
+
         switch (month) {
             case 1:
                 System.out.println("Зима");
@@ -65,7 +87,7 @@ public class Main {
         squareArray[1][2] = 15;
         for(int q = 0; q < squareArray.length; q++){
             for(int j = 0; j < squareArray[q].length; j++){
-                System.out.print(squareArray[q][j] + "["+ q +"][" + j +"]" + " ");
+                System.out.print(squareArray[q][j] + "[" + q + "]" + "[" + j  + "]" + " ");
             }
 System.out.println();
         }
