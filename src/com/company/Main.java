@@ -8,25 +8,25 @@ public class Main {
             System.out.println("Зима");
         } else if (month == 2) {
             System.out.println("Зима");
-        }else if (month == 3) {
+        } else if (month == 3) {
             System.out.println("Весна");
-        }else if (month == 4) {
+        } else if (month == 4) {
             System.out.println("Весна");
-        }else if (month == 5) {
+        } else if (month == 5) {
             System.out.println("Весна");
-        }else if (month == 6) {
+        } else if (month == 6) {
             System.out.println("Лето");
-        }else if (month == 7) {
+        } else if (month == 7) {
             System.out.println("Лето");
-        }else if (month == 8) {
+        } else if (month == 8) {
             System.out.println("Лето");
-        }else if (month == 9) {
+        } else if (month == 9) {
             System.out.println("Осень");
-        }else if (month == 10) {
+        } else if (month == 10) {
             System.out.println("Осень");
-        }else if (month == 11) {
+        } else if (month == 11) {
             System.out.println("Осень");
-        }else{
+        } else {
             System.out.println("Зима");
         }
 
@@ -75,7 +75,7 @@ public class Main {
 
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         for (int i = array.length - 1; i >= 0; i--) {
-        System.out.print(array[i] + " ");
+            System.out.print(array[i] + " ");
         }
         System.out.println();
         int[][] squareArray = new int[2][3];
@@ -85,13 +85,13 @@ public class Main {
         squareArray[1][0] = 13;
         squareArray[1][1] = 14;
         squareArray[1][2] = 15;
-        for(int q = 0; q < squareArray.length; q++){
-            for(int j = 0; j < squareArray[q].length; j++){
-                System.out.print(squareArray[q][j] + "[" + q + "]" + "[" + j  + "]" + " ");
+        for (int q = 0; q < squareArray.length; q++) {
+            for (int j = 0; j < squareArray[q].length; j++) {
+                System.out.print(squareArray[q][j] + "[" + q + "]" + "[" + j + "]" + " ");
             }
-System.out.println();
+            System.out.println();
         }
 
-        }
     }
+}
 
